@@ -4,7 +4,7 @@
 
 ## 使用说明
 
-`java -jar path target replacement`
+`java -jar renamer.jar path target replacement`
 
 | argument                | description                                    |
 | ----------------------- | :--------------------------------------------- |
@@ -14,6 +14,6 @@
 
 拿上面的例子来讲，使用
 
-`java -jar "D:\Anime\jojo" "[JOJO&UHA-WING&Kamigami][JoJo's Bizarre Adventure - Golden Wind][BDRIP 1920x1080][x264_DTS-HDMA]/[JOJO&UHA-WING&Kamigami][JoJo's Bizarre Adventure - Golden Wind]" "jojo"`  
+`java -jar renamer.jar "D:\Anime\jojo" "[JOJO&UHA-WING&Kamigami][JoJo's Bizarre Adventure - Golden Wind][BDRIP 1920x1080][x264_DTS-HDMA]/[JOJO&UHA-WING&Kamigami][JoJo's Bizarre Adventure - Golden Wind]" "jojo"`  
 
 即可实现上面的需求
