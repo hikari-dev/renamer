@@ -5,8 +5,8 @@ package dev.hikari
 import java.io.File
 
 fun main(args: Array<String>) {
-    if (args.size < 2) {
-        println("参数没填齐啊喂")
+    if (args.size < 2 || args.size > 3) {
+        println("参数有问题啊喂！")
         return
     }
     val path = args[0]
@@ -20,7 +20,7 @@ fun main(args: Array<String>) {
 
     val dir = File(path)
     if (!dir.isDirectory) {
-        println("路径要是个文件夹路径啊喂")
+        println("路径要是个文件夹路径啊喂！")
         return
     }
     dir.walk()
