@@ -1,6 +1,6 @@
 # renamer
 
-> 命令行还是有点麻烦，请使用 [GUI版本](https://github.com/hikari-dev/renamer-gui)
+> 命令行还是有点麻烦，请使用 [GUI版本](https://github.com/hikari-dev/renamer-gui) 或者 [Compose版本](https://github.com/hikari-dev/renamer-compose) 。
 
 ## 由来
 网上下的番的名字好长，想改成简短的名字或者去掉名字只要episode编号(比如由`[JOJO&UHA-WING&Kamigami][JoJo's Bizarre Adventure - Golden Wind][1][BDRIP 1920x1080][x264_DTS-HDMA].mkv`改为`jojo[1].mkv`)，但是一个一个改太麻烦了，于是此工具就诞生了。
